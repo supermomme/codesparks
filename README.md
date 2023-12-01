@@ -1,5 +1,10 @@
 # codesparks
 
+## Dinde die ich benutze
+
+- SolidStart
+- TailwindCSS
+
 ## Start
 
 ```bash
