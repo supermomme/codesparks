@@ -1,5 +1,5 @@
 export default function Logo() {
-  return (<svg class="w-[30rem]" viewBox="40 40 430 430" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  return (<svg class="w-full" viewBox="40 40 430 430" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1.02324,5.64013e-17,-5.68012e-17,1.01604,-0.927942,-1.47948)">
         <ellipse cx="250.113" cy="250.697" rx="210.183" ry="209.859" style="fill:rgb(125,78,197);"/>
     </g>
