@@ -9,12 +9,14 @@ export function visitorCount({ forward }: MiddlewareInput) {
     const request = event.request;
     const method = request.method.toString();
     const url = request.url.toString();
+    const userAgent = request.headers.get('user-agent')
     const cliendAddress = event.clientAddress.toString();
+    const proxyRealIp = request.headers.get('x-real-ip')
 
     fetch(`${supabaseUrl}/rest/v1/visits`, {
       method: "POST",
       headers: { "Content-Type": "application/json", "apikey": supabaseKey },
-      body: JSON.stringify({ method, url, cliendAddress }),
+      body: JSON.stringify({ method, url, cliendAddress: proxyRealIp ?? cliendAddress, userAgent }),
     }).catch((err) => console.error(err))
     
     return forward(event);

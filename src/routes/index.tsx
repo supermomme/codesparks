@@ -20,6 +20,12 @@ export default function Home() {
         <button onclick={scrollMore} class="bg-sky-600 text-white px-3 py-2 rounded">Mehr erfahren</button>
       </section>
       <div class="mt-8 flex flex-col items-center gap-10">
+        <section>
+          <video width="320" height="240" controls>
+            <source src="/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </section>
         <section id="more" class="max-w-3xl w-full px-4 text-left">
           <h3 class="text-3xl">Infos zum Studium an der HS-Flensburg</h3>
           <p>Die vielleicht wichtigste Info vorweg: Du benötigst keine Programmier-Vorkenntnisse! Alles was du an Wissen benötigst, lernst du im Studium.</p>
