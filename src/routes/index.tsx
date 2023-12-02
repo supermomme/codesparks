@@ -87,13 +87,15 @@ export default function Home() {
             <li>Mensch-Computer-Interaktion</li>
             <li>Web- und Software-Technologien</li>
           </ul>
+        </section>
+        <section class="max-w-3xl w-full px-4 text-left">
           <p>An der Hochschule Flensburg hast du den großen Vorteil, dass es in der Regel zu jeder Vorlesung ein praxisorientiertes Labor gibt, in dem du den gelernten Stoff anhand von Übungsaufgaben direkt anwenden kannst.</p>
         </section>
         <section class="max-w-3xl w-full px-4 text-left">
           <h2 class="text-xl" >Du willst wissen, was dich nach dem Studium erwartet?</h2>
           <p>Vom Projektmanagement über die Softwareentwicklung bis hin zur Netzwerkadministration stehen dir alle Türen offen.</p>
           <h2 class="text-xl">Du interessiert dich z.B. für Spiele?</h2>
-          <p>Vielleicht ist der Beruf Game Developer etwas für dich</p>
+          <p>Vielleicht ist der Beruf Game Developer etwas für dich.</p>
           <h2 class="text-xl">Du liebst es Projekte zu planen?</h2>
           <p>Wie wäre es als Projektmanager für IT-Projekte.</p>
           <h2 class="text-xl">Du bist fasziniert von ChatGPT?</h2>
