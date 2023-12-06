@@ -109,7 +109,7 @@ export default function Home() {
         </section>
         <section class="max-w-3xl w-full px-4 text-left">
           <h3 class="text-3xl">Entwickle ein Vier-Gewinnt-Spiel!</h3>
-          <p>Das ist eine Beispielaufgabe aus dem 2. Semester. Auf <a href="https://viergewinnt.codesparks.de" class="underline hover:text-blue-800" target="_blank">viergewinnt.codesparks.de</a> findest eine Lösung zu der Aufgabe.</p>
+          <p>Das ist eine Beispielaufgabe aus dem 2. Semester. Auf <a href="https://viergewinnt.codesparks.de" class="underline hover:text-blue-800" target="_blank">viergewinnt.codesparks.de</a> findest Du eine Lösung zu der Aufgabe.</p>
           <p>Schreibe deinen eigenen Code, erstelle eine HTML-Website und gestalte sie mit CSS. Du hast noch nie etwas von HTML gehört? Keine Sorge, das lernst du im ersten Semester.</p>
           <img src="/viergewinnt.png" alt="Bilder-Collage von Viergewinnt"/>
         </section>
